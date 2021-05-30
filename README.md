@@ -8,30 +8,31 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 * Naive Random Oversampling accuracy test is 64%. The precision for high risk has a positivity of 1% with a recall of 66%.
 
-!(naive)[naive.png]
+![naive](naive.png)
 
 * SMOTE Oversampling results accuracy test is 65%. Precision for high risk has a positivity at 1% and recall of 69%.
 
-!(smote)[smote.png]
+![smote](smote.png)
 
 * Undersamping balanced accuracy score is 65%. Average is 99% and recall is 40%.
 
-!(under)[undersampling.png]
+![under](undersampling.png)
 
 * Combination Over & Under balanced accuracy score is 54%. Average is 99% with a recall of 57%.
 
-!(combo)[combination.png]
+![combo](combination.png)
 
 * Balanced Random Forest accuracy score is 78%. Average is at 99% and recall is 89%.
 
-!(balanced)[forest.png]
+![balanced](forest.png)
 
 * Easy Ensemble Adaboost classifier accuracy score is 92%. Average is 99% and recall is 94%.
 
-!(easyensemble)[adaboost.png]
+![easy](adaboost.png)
 
 ## Summary
 
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning. 
 
 
 
