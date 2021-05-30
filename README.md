@@ -8,32 +8,31 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 * Naive Random Oversampling accuracy test is 64%. The precision for high risk has a positivity of 1% with a recall of 66%.
 
-![naive](naive.png)
+![naive](resources/naive.png)
 
 * SMOTE Oversampling results accuracy test is 65%. Precision for high risk has a positivity at 1% and recall of 69%.
 
-![smote](smote.png)
+![smote](resources/smote.png)
 
 * Undersamping balanced accuracy score is 65%. Average is 99% and recall is 40%.
 
-![under](undersampling.png)
+![under](resources/undersampling.png)
 
 * Combination Over & Under balanced accuracy score is 54%. Average is 99% with a recall of 57%.
 
-![combo](combination.png)
+![combo](resources/combination.png)
 
 * Balanced Random Forest accuracy score is 78%. Average is at 99% and recall is 89%.
 
-![balanced](forest.png)
+![balanced](resources/forest.png)
 
 * Easy Ensemble Adaboost classifier accuracy score is 92%. Average is 99% and recall is 94%.
 
-![easy](adaboost.png)
+![easy](resources/adaboost.png)
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning. 
-
+Our first four models, where we undersampled, oversampled, and a combination of both, the accuracy score is not as high as the ensemble classifiers as well as having a lower recall percentage. We are looking for a balance between recall and precision therefore, I would recommend the ensemble classifiers over the other models. Specifically, our easy ensemble shows a high accuracy score as well as a balanced precision and recall scores.
 
 
 
